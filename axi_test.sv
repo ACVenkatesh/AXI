@@ -314,16 +314,16 @@ function void wrap_axi_test::build_phase(uvm_phase phase);
 endfunction
 
 
-task wrap_axi_test::run_phase(uvm_phase phase);
+// task wrap_axi_test::run_phase(uvm_phase phase);
 
-    phase.raise_objection(this);
+   // phase.raise_objection(this);
 
-   axi_wrap_vseq_h=axi_wrap_vseq::type_id::create("axi_wrap_vseq_h");
+    // axi_wrap_vseq_h=axi_wrap_vseq::type_id::create("axi_wrap_vseq_h");
   
-    axi_wrap_vseq_h.start(axi_env_h.axi_v_sequencer_h);   
- #200;
-    phase.drop_objection(this);
-endtask          
+    // axi_wrap_vseq_h.start(axi_env_h.axi_v_sequencer_h);   
+ // #200;
+// phase.drop_objection(this);
+// endtask          
           
 
 
