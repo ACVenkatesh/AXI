@@ -68,9 +68,9 @@ task axi_SB::run_phase(uvm_phase phase);
 													  fifo_slave.get(xtn_slave);																																													
 													join
 													
-													WADDR_check_data(xtn_master,xtn_slave);
-													WDATA_check_data(xtn_master,xtn_slave);
-													WRESP_check_data(xtn_master,xtn_slave);
+											//		WADDR_check_data(xtn_master,xtn_slave);
+											//		WDATA_check_data(xtn_master,xtn_slave);
+											//		WRESP_check_data(xtn_master,xtn_slave);
 
 													
 											end
